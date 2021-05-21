@@ -1,0 +1,24 @@
+.homescreen {
+  max-width: 1300px;
+  margin: 32px auto;
+
+  &__title {
+    font-size: 1.5rem;
+    color: #171717;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+  }
+  &__products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-evenly;
+    align-items: center;
+    // grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .homescreen__products {
+    padding: 0 120px;
+  }
+}

@@ -1,0 +1,32 @@
+.productpage {
+  margin-top: 32px;
+  &__title {
+    display: flex;
+  }
+
+  &__image {
+    border-radius: 4px;
+  }
+
+  &__info,
+  &__action table {
+    // background-color: #fff;
+    border-radius: 4px;
+  }
+
+  &__info,
+  &__action,
+  &__img {
+    margin: 4px 0;
+    padding: 8px;
+  }
+
+  .table {
+    background-color: white;
+    padding: 0 15px;
+  }
+
+  &__action table {
+    // padding: 4px;
+  }
+}
